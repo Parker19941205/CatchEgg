@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "095a6162-05de-4a6e-80d1-5528151f09b8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 135,
+  "height": 56,
+  "platformSettings": {},
+  "subMetas": {
+    "beibao_0002_图层-38-拷贝-6": {
+      "ver": "1.0.6",
+      "uuid": "08e190a3-fe39-450b-a3b7-2711d4d82d2b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "095a6162-05de-4a6e-80d1-5528151f09b8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 135,
+      "height": 56,
+      "rawWidth": 135,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

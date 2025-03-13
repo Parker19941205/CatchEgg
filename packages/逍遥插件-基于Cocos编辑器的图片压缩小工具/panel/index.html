@@ -1,0 +1,37 @@
+<div class="box">
+
+    <div class="title">
+        <h1 class="title-label">逍遥压缩工具</h1>
+    </div>
+
+    <div class="box dir">
+        <div class="dir-choose">
+            <div class="dir-choose-btn" @click="chooseYasuoDir"> 选择文件夹 </div>
+            <div class="dir-choose-res">{{'当前选择: '+yasuoDir}}</div>
+        </div>
+        <div class="dir-save">
+            <span class="dir-save-title">保存文件夹:</span>
+            <div class="dir-save-btn" @click="chooseSaveDir" v-bind:title="saveDir">
+                {{saveDir}}
+                <span v-if="!saveDir" class="dir-save-title choose-tip-txt">选择保存文件夹</span>
+            </div>
+        </div>
+        <div class="dir-jump">
+            <span class="dir-save-title">跳过文件夹:</span>
+            <input type="text" class="jump-in" name="jump" placeholder="跳过文件夹, ','号分隔" v-bind:value='jumpDir'
+                @change="chooseJump" />
+        </div>
+    </div>
+
+    <div class="btns">
+        <button v-if="choosedYasuoDir" type="button" @click="startYauo" class="start-btn btn">压缩</button>
+        <button v-if="choosedYasuoDir" type="button" @click="cancelChoose" class="cancel-btn btn">取消</button>
+        <button v-if="!choosedYasuoDir" type="button" @click="confirmChoose" class="confirm-btn btn">确定</button>
+    </div>
+
+    <div class="box-tip">
+        <span class="box-tip-title">压缩提示:</span>
+        <div class="tip-content">{{tipContent}}</div>
+    </div>
+
+</div>

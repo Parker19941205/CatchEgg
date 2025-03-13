@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "touch",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "33d29556-99a4-4e61-bae2-2342667f94a8"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "739d79ab-6acd-4572-a43b-825bdfe7e257"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "9b240996-10bd-4037-a714-d5b006dd2d2b"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "34061fe4-eba9-4273-9b0f-41430c3d6d2e"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "a2cc1e1d-dfa1-4890-8067-4e77cfdbc67b"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

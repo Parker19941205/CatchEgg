@@ -1,0 +1,161 @@
+.box {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dir {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dir-choose {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dir-choose-btn {
+    width: 300px;
+    height: 50px;
+    border: 2px solid #99e0ff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.dir-choose-res {
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+    word-break: break-all;
+    color: #ff9b99;
+}
+
+
+.dir-save {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.dir-save-title {
+    display: block;
+    width: auto;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.choose-tip-txt {
+    width: 210px;
+    text-align: left;
+    color: #303030;
+}
+
+.dir-save-btn {
+    width: 210px;
+    height: 30px;
+    border: 1px solid #091114;
+    padding-left: 5px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    color: #303030;
+    background-color: beige;
+    margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 3px;
+}
+
+.btns {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.btn {
+    font-size: 13px;
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 2px solid #00000000;
+    border-radius: 2px;
+    letter-spacing: 5px;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+}
+
+.start-btn {
+    background-color: #008CBA;
+}
+
+.confirm-btn {
+    background-color: #4CAF50;
+}
+
+.box-tip {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-tip-title {
+    font-size: 16px;
+    color: rgb(255, 199, 94);
+}
+
+.tip-content {
+    width: 300px;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-top: 3px;
+    line-height: 20px;
+    box-orient: vertical;
+    word-break: break-all;
+}
+
+.dir-jump {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jump-in {
+    width: 216px;
+    height: 30px;
+    background-color: beige;
+    padding-left: 5px;
+    margin-left: 5px;
+    border: 1px solid #10181c;
+    border-radius: 3px;
+}

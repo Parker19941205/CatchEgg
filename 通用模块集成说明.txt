@@ -1,0 +1,24 @@
+1 关于配置表：
+   1：为了集成通用模块方便  通用模块里面会独立设置一个物品表 
+      这样一来游戏可以有物品表也可以不需要  如果游戏本身存在物品表  需要把物品表的值填写到通用模块的物品里
+   2：通用模块的excel可以和游戏的excel一起打成一个json文件 也可以分开：
+      a 打在一起 需要修改ComDataMgr.ts里面的加载bundle路径即可 其他不用修改 删除commonModel/bundles/comconfig目录
+      b 分开打 把通用模块excel打成的json文件放到commonModel/bundles/comconfig目录
+
+2：开始集成 最好关闭编辑器  先复制脚本文件
+    0 复制 sprits/commonModel目录到游戏
+    1 复制 commonModel目录到游戏 说明:bundles下的目录需要配置assets bundle
+
+3：代码细节需注意一下几点
+   1 游戏最好有一个Playermgr 然后必须要实现GameImpl接口 通用模块里面获得的奖励都会回调到游戏 参考demo PlayerMgr.ts
+   2 UITop里面的奖励飞向顶部动画需要复制到游戏对应的uitop里面 包括prefab布局也需要参考demo里面的
+   3 签到 任务收集 图标需要有红点提示 参考demo UIHome.ts
+   4 游戏里面不管是获得了什么奖励 都需要通知到通用模块 调用CommonModel.Instance().addReward(goodsId, num, true)
+
+
+
+"permission": {
+      "scope.userFuzzyLocation": {
+         "desc": "你的位置信息将用于小程序团队展示"
+      }
+   },

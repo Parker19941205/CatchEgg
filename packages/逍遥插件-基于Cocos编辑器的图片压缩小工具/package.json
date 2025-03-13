@@ -1,0 +1,26 @@
+{
+  "name": "nicoluss-tool",
+  "version": "0.0.2",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/nicoluss-tool/工具面板": {
+      "message": "nicoluss-tool:open"
+    },
+    "i18n:MAIN_MENU.package.title/nicoluss-tool/构建后压缩": {
+      "message": "nicoluss-tool:shrink-builded"
+    },
+    "i18n:MAIN_MENU.package.title/nicoluss-tool/取消构建后压缩": {
+      "message": "nicoluss-tool:unshrink-builded"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "nicoluss-tool",
+    "width": 600,
+    "height": 580
+  },
+  "_storeId": "eaff70fe90a6909f4a67dc101e9d8e6b"
+}

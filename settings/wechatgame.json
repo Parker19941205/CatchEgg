@@ -1,0 +1,8 @@
+{
+  "appid": "wxeff21ea8b01270e2",
+  "orientation": "portrait",
+  "separate_engine": false,
+  "REMOTE_SERVER_ROOT": "https://waterdrop.littletuan.com/client",
+  "subContext": "SubContextView",
+  "startSceneAssetBundle": false
+}
