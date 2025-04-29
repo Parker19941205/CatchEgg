@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "099b3c70-c29f-4c3c-b62a-0c55aa3d4bf0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 469,
+  "height": 118,
+  "platformSettings": {},
+  "subMetas": {
+    "标题-开始挑战": {
+      "ver": "1.0.6",
+      "uuid": "d45c46f1-d74f-48da-b502-3a58966ccee5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "099b3c70-c29f-4c3c-b62a-0c55aa3d4bf0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 469,
+      "height": 118,
+      "rawWidth": 469,
+      "rawHeight": 118,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "133aa9b8-a8a5-4c73-9c37-08dc76f7cd7c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 240,
+  "height": 40,
+  "platformSettings": {},
+  "subMetas": {
+    "障碍物-木板": {
+      "ver": "1.0.6",
+      "uuid": "1417e8b2-7f66-473c-890f-71b54aff8aa6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "133aa9b8-a8a5-4c73-9c37-08dc76f7cd7c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": -1.5,
+      "trimX": 1,
+      "trimY": 3,
+      "width": 235,
+      "height": 37,
+      "rawWidth": 240,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -56,7 +56,7 @@ export default class Main extends cc.Component {
             PlayerMgr.getInstance().updateData()
         }, 1);
   
-        UIMgr.getInstance().openUI(UIID.UIHome)
+        UIMgr.getInstance().openUI(UIID.GameUI)
         //连接websocket
         // NetManager.getInstance().connect({url: GameConfig.socketUrl},0,()=>{
         //     cc.log("WebSocket连接成功,进入界面")

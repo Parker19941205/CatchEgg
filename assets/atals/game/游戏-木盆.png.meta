@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4fa68140-c65b-460f-bee3-0a6e816b12f0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 184,
+  "height": 95,
+  "platformSettings": {},
+  "subMetas": {
+    "游戏-木盆": {
+      "ver": "1.0.6",
+      "uuid": "da227248-06e1-46f7-acdc-1ce4f0b5877e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4fa68140-c65b-460f-bee3-0a6e816b12f0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -2,
+      "trimX": 9,
+      "trimY": 4,
+      "width": 167,
+      "height": 91,
+      "rawWidth": 184,
+      "rawHeight": 95,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

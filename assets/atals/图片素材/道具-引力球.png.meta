@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "809da88c-f7bc-4af5-90ff-4dc1e9a8eee0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 120,
+  "height": 120,
+  "platformSettings": {},
+  "subMetas": {
+    "道具-引力球": {
+      "ver": "1.0.6",
+      "uuid": "c555c119-5eb5-4756-9d0c-93c04d081286",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "809da88c-f7bc-4af5-90ff-4dc1e9a8eee0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 6,
+      "trimY": 6,
+      "width": 109,
+      "height": 109,
+      "rawWidth": 120,
+      "rawHeight": 120,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

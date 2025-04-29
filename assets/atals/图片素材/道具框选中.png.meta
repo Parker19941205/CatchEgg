@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "594c1c4a-2dbd-4f2f-b3c1-9b49241a2cdf",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 140,
+  "height": 140,
+  "platformSettings": {},
+  "subMetas": {
+    "道具框选中": {
+      "ver": "1.0.6",
+      "uuid": "ae666dc9-c2c9-48d2-b06d-5fff710722c2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "594c1c4a-2dbd-4f2f-b3c1-9b49241a2cdf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 140,
+      "height": 140,
+      "rawWidth": 140,
+      "rawHeight": 140,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

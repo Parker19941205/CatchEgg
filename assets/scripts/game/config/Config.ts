@@ -10,23 +10,7 @@ export enum UIID {
     UIMask,
     LoginUI,
     UIHome,
-    SexSelect,
-    PersonInfo,
-    FindPropUI,
-    RewardUI,
-    EnergyBuyUI,
-    FriendUI,
-    FightUI,
-    SettingUI,
-    SelectPetUI,
-    BagUI,
-    SelectFightPet,
-    MatchUI,
-    CustomerUI,
-    OnHookUI,
-    OnHookIngUI,
-    ChatUI,
-    InviteUI,
+    GameUI
 }
 
 /**ui配置类 */
@@ -41,24 +25,7 @@ export let UICF: { [key: string]: UIConf } = {
 
     /**游戏ui */
     [UIID.UIHome]: { prefab: "UIHome", name: "UIHome", showTop: true, zIndex: OrderLayer.main, bundleName: "mainprefabs" },
-    [UIID.LoginUI]: { prefab: "LoginUI", name: "LoginUI", showTop: true, zIndex: OrderLayer.main, bundleName: "prefabs" },
-    [UIID.SexSelect]: { prefab: "SexSelect", name: "SexSelect", showTop: true, zIndex: OrderLayer.main, bundleName: "prefabs" },
-    [UIID.PersonInfo]: { prefab: "PersonInfo", name: "PersonInfo", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.RewardUI]: { prefab: "RewardUI", name: "RewardUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.FindPropUI]: { prefab: "FindPropUI", name: "FindPropUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.EnergyBuyUI]: { prefab: "EnergyBuyUI", name: "EnergyBuyUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.FightUI]: { prefab: "FightUI", name: "FightUI", showTop: true, zIndex: OrderLayer.main, bundleName: "prefabs" },
-    [UIID.SettingUI]: { prefab: "SettingUI", name: "SettingUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.SelectPetUI]: { prefab: "SelectPetUI", name: "SelectPetUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.BagUI]: { prefab: "BagUI", name: "BagUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.SelectFightPet]: { prefab: "SelectFightPet", name: "SelectFightPet", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.MatchUI]: { prefab: "MatchUI", name: "MatchUI", showTop: true, zIndex: OrderLayer.main, bundleName: "prefabs" },
-    [UIID.CustomerUI]: { prefab: "CustomerUI", name: "CustomerUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.OnHookUI]: { prefab: "OnHookUI", name: "OnHookUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "prefabs" },
-    [UIID.OnHookIngUI]: { prefab: "OnHookIngUI", name: "OnHookIngUI", showTop: true, zIndex: OrderLayer.main, bundleName: "prefabs" },
-    [UIID.FriendUI]: { prefab: "FriendUI", name: "FriendUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "friend" },
-    [UIID.ChatUI]: { prefab: "ChatUI", name: "ChatUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "friend" },
-    [UIID.InviteUI]: { prefab: "InviteUI", name: "InviteUI", showTop: true, zIndex: OrderLayer.pop, bundleName: "friend" },
+    [UIID.GameUI]: { prefab: "GameUI", name: "GameUI", showTop: true, zIndex: OrderLayer.main, bundleName: "prefabs" },
 
 }
 

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "03e51b80-4b23-4d1d-9ef6-f166946e9574",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 40,
+  "height": 50,
+  "platformSettings": {},
+  "subMetas": {
+    "游戏-鸡蛋": {
+      "ver": "1.0.6",
+      "uuid": "048c286d-6610-4f63-bf12-c206b29f5d27",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "03e51b80-4b23-4d1d-9ef6-f166946e9574",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 4,
+      "trimY": 4,
+      "width": 32,
+      "height": 44,
+      "rawWidth": 40,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

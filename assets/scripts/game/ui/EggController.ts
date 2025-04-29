@@ -26,7 +26,6 @@ export default class EggController extends BaseUI {
     // 初始化小球
     initBall(delegate){
         this.delegate = delegate
-        this.node.setPosition(-200,cc.winSize.height/2 - 200)
         this.applyForcey()
     }
 
